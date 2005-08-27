@@ -1,4 +1,4 @@
-# $Rev: 3429 $, $Date: 2005-08-15 12:17:57 $
+# $Rev: 3429 $, $Date: 2005-08-27 17:42:48 $
 #
 Summary:	xwininfo application
 Summary(pl):	Aplikacja xwininfo
@@ -15,7 +15,7 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	xorg-lib-libXmu-devel
 BuildRequires:	xorg-util-util-macros
-BuildRequires:	pkg-config
+BuildRequires:	pkgconfig >= 0.19
 BuildRoot:	%{tmpdir}/xwininfo-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
