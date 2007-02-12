@@ -1,5 +1,5 @@
 Summary:	xwininfo application
-Summary(pl):	Aplikacja xwininfo
+Summary(pl.UTF-8):   Aplikacja xwininfo
 Name:		xorg-app-xwininfo
 Version:	1.0.2
 Release:	1
@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xwininfo application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xwininfo.
 
 %prep
