@@ -1,5 +1,5 @@
 Summary:	xwininfo application
-Summary(pl.UTF-8):   Aplikacja xwininfo
+Summary(pl.UTF-8):	Aplikacja xwininfo
 Name:		xorg-app-xwininfo
 Version:	1.0.2
 Release:	1
