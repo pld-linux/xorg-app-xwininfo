@@ -1,12 +1,12 @@
 Summary:	xwininfo application
 Summary(pl.UTF-8):	Aplikacja xwininfo
 Name:		xorg-app-xwininfo
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xwininfo-%{version}.tar.bz2
-# Source0-md5:	e5dbc8866a55958297f5f38205b6be1e
+# Source0-md5:	721f84332c98c33152460bb22ba9ded6
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
