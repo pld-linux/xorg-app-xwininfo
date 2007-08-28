@@ -1,5 +1,5 @@
-Summary:	xwininfo application
-Summary(pl.UTF-8):	Aplikacja xwininfo
+Summary:	xwininfo application - window information utility for X
+Summary(pl.UTF-8):	Aplikacja xwininfo - narzędzie informujące o okienkach pod X
 Name:		xorg-app-xwininfo
 Version:	1.0.3
 Release:	1
@@ -18,10 +18,13 @@ BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-xwininfo application.
+xwininfo is a utility for displaying information about windows.
+Various information is displayed depending on which options are
+selected.
 
 %description -l pl.UTF-8
-Aplikacja xwininfo.
+xwininfo to narzędzie do wyświetlania informacji o okienkach.
+Wyświetlane są różne informacje w zależności od wybranych opcji.
 
 %prep
 %setup -q -n xwininfo-%{version}
