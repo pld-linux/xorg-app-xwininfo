@@ -1,12 +1,12 @@
 Summary:	xwininfo application - window information utility for X
 Summary(pl.UTF-8):	Aplikacja xwininfo - narzędzie informujące o okienkach pod X
 Name:		xorg-app-xwininfo
-Version:	1.1.0
+Version:	1.1.1
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xwininfo-%{version}.tar.bz2
-# Source0-md5:	932cb1393dee3caaf26f3515f640d783
+# Source0-md5:	7a7f44b826d877ba39c19cf5913978d7
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
